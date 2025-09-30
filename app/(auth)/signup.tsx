@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
-import { supabase } from '../../supabase';
+import supabase from '../lib/_supabase';
 
 const handleSignUp = async (email: string, password: string) => {
 
